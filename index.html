@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRAS - Acessibilidade e Informação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao site sobre LIBRAS</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre a LIBRAS</a></li>
+                <li><a href="#alfabeto">Alfabeto em LIBRAS</a></li>
+                <li><a href="#tradutor">Tradutor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h2>O que é LIBRAS?</h2>
+        <p>LIBRAS (Língua Brasileira de Sinais) é a língua usada pela comunidade surda no Brasil.</p>
+    </section>
+    <section id="alfabeto">
+        <h2>Alfabeto em LIBRAS</h2>
+        <img src="alfabeto-libras.png" alt="Imagem do Alfabeto em LIBRAS">
+    </section>
+    <section id="tradutor">
+        <h2>Tradutor de Texto para LIBRAS</h2>
+        <input type="text" id="inputTexto" placeholder="Digite uma palavra">
+        <button onclick="traduzir()">Traduzir</button>
+        <div id="video"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
