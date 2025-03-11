@@ -3,18 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* BODY */
-  body {
+}
+
+/* BODY */
+body {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  /* HEADER */
-  header {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* HEADER */
+header {
     background-color: #002147;
     padding: 20px;
     color: white;
@@ -22,114 +23,166 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  /* Botão de Menu - mesmo estilo em todas as páginas */
-  .menu-btn {
+}
+
+/* Botão de Menu - Padrão */
+.menu-btn {
     background: none;
     border: none;
     color: white;
     font-size: 35px;
     cursor: pointer;
     font-family: "Mulish", sans-serif;
-  }
-  
-  /* OVERLAY cobrindo toda a tela com cor sólida */
-  .overlay {
+}
+
+/* OVERLAY - Menu lateral */
+.overlay {
     position: fixed;
     top: 0;
-    left: -100%;  /* Inicia fora da tela */
+    left: -100%; /* Escondido por padrão */
     width: 100%;
     height: 100%;
-    background-color: #002147; /* Cor sólida, sem transparência */
+    background-color: #002147;
     transition: left 0.3s ease-in-out;
-    z-index: 9999; /* Fica acima de todo o conteúdo */
+    z-index: 9999;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-  }
-  
-  /* Quando o overlay estiver aberto */
-  .overlay.open {
+}
+
+/* Overlay aberto */
+.overlay.open {
     left: 0;
-  }
-  
-  /* Conteúdo do overlay (menu) no canto esquerdo */
-  .overlay-content {
+}
+
+/* Conteúdo do Overlay */
+.overlay-content {
     margin: 40px;
-    width: 100%; 
+    width: 100%;
     color: white;
-    text-align: left;
-  }
-  
-  /* Botão de Menu dentro do overlay - mesmo estilo */
-  .overlay-content .menu-btn {
+}
+
+.overlay-content .menu-btn {
     font-size: 35px;
-    font-family: "Mulish", sans-serif;
     margin-bottom: 30px;
     background: none;
     border: none;
     color: white;
     cursor: pointer;
-  }
-  
-  /* Lista de links no overlay */
-  .overlay-content ul {
+}
+
+/* Lista de links do menu */
+.overlay-content ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .overlay-content ul li {
+}
+
+.overlay-content ul li {
     margin: 15px 0;
-  }
-  
-  .overlay-content ul li a {
+}
+
+.overlay-content ul li a {
     text-decoration: none;
     color: white;
     font-size: 30px;
-    font-family: "Mulish", sans-serif;
-  }
-  
-  /* MAIN */
-  main {
+    transition: color 0.3s;
+}
+
+.overlay-content ul li a:hover {
+    color: #f5a623;
+}
+
+/* MAIN */
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
-  }
-  
-  /* LOGO */
-  .logo img {
-    width: 650px;
-  }
-  
-  /* Seção SOBRE */
-  .sobre {
+    text-align: center;
+}
+
+/* LOGO */
+.logo img {
+    width: 100%;
+    max-width: 650px;
+}
+
+/* Seção SOBRE */
+.sobre {
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
     text-align: left;
+}
+
+.sobre h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #002147;
+    margin-bottom: 10px;
+}
+
+.sobre p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+
+/* Seção Saiba Mais - Container geral */
+.saiba-mais {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
   }
   
-  .sobre h1 {
-    font-size: 32px;
+  /* Texto do Saiba Mais */
+  .saiba-mais .texto {
+    width: 300px; /* Largura fixa do bloco de texto */
+    text-align: left;
+  }
+  
+  .saiba-mais .texto h2 {
+    font-size: 28px;
     font-weight: 700;
     color: #002147;
     margin-bottom: 10px;
   }
   
-  .sobre p {
-    font-size: 18px;
+  .saiba-mais .texto p {
+    font-size: 16px;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 1.4;
     color: #333;
-    margin-bottom: 40px;
   }
   
-  /* RODAPÉ */
-  footer {
+  /* Container das imagens */
+  .saiba-mais .imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;         /* Espaço entre as imagens */
+    align-items: flex-end; 
+  }
+  
+  /* Forçando tamanho das imagens */
+  .saiba-mais .imagens img {
+    width: 250px !important;   /* Largura fixa */
+    height: 150px !important;  /* Altura fixa */
+    object-fit: cover !important;
+    border-radius: 5px !important;
+    display: block !important;
+    max-width: none !important;
+    max-height: none !important;
+  }
+  
+/* RODAPÉ */
+footer {
     background-color: #002147;
     color: white;
     text-align: center;
@@ -137,5 +190,4 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
+}
