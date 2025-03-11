@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nós</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Barra de Navegação -->
+  <header>
+    <nav class="navbar">
+      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+    </nav>
+  </header>
+
+  <!-- OVERLAY: menu que aparece ao clicar no botão -->
+  <div id="overlay" class="overlay">
+    <div class="overlay-content">
+      <!-- Mesmo botão para fechar o menu -->
+      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+      <ul>
+        <li><a href="index.html" onclick="toggleMenu()">Início</a></li>
+        <li><a href="sobre.html" onclick="toggleMenu()">Sobre Nós</a></li>
+        <li><a href="dicionario.html" onclick="toggleMenu()">Dicionário</a></li>
+        <li><a href="saibamais.html" onclick="toggleMenu()">Saiba Mais</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Conteúdo Sobre Nós -->
+  <section class="sobre">
+    <div class="container">
+      <h1>Sobre Nós</h1>
+      <p>Nosso site nasceu com o propósito de tornar a Língua Brasileira de Sinais (LIBRAS) mais acessível para todos. 
+         Acreditamos que a comunicação é um direito fundamental e que a inclusão começa com o conhecimento. 
+         Aqui, você encontra recursos, ferramentas e informações para aprender e se conectar com a comunidade surda.</p>
+    </div>
+
+    <div class="container">
+      <h1>Missão</h1>
+      <p>Nossa missão é promover a acessibilidade e o aprendizado da LIBRAS, permitindo que mais pessoas possam se comunicar de forma inclusiva. 
+         Queremos reduzir barreiras e incentivar o respeito à diversidade, tornando a sociedade mais acolhedora para a comunidade surda.</p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

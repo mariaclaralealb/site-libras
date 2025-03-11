@@ -1,36 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIBRAS - Acessibilidade e Informação</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIBRAS</title>
+  <!-- Fonte Mulish -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <!-- Seu CSS principal -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Bem-vindo ao site sobre LIBRAS</h1>
         <nav>
-            <ul>
-                <li><a href="#sobre">Sobre a LIBRAS</a></li>
-                <li><a href="#alfabeto">Alfabeto em LIBRAS</a></li>
-                <li><a href="#tradutor">Tradutor</a></li>
-            </ul>
+          <!-- Botão de Menu -->
+          <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
         </nav>
-    </header>
-    <section id="sobre">
-        <h2>O que é LIBRAS?</h2>
-        <p>LIBRAS (Língua Brasileira de Sinais) é a língua usada pela comunidade surda no Brasil.</p>
-    </section>
-    <section id="alfabeto">
-        <h2>Alfabeto em LIBRAS</h2>
-        <img src="alfabeto-libras.png" alt="Imagem do Alfabeto em LIBRAS">
-    </section>
-    <section id="tradutor">
-        <h2>Tradutor de Texto para LIBRAS</h2>
-        <input type="text" id="inputTexto" placeholder="Digite uma palavra">
-        <button onclick="traduzir()">Traduzir</button>
-        <div id="video"></div>
-    </section>
-    <script src="script.js"></script>
+      </header>
+      
+      <!-- OVERLAY: cobre a tela quando o menu é aberto -->
+      <div id="overlay" class="overlay">
+        <div class="overlay-content">
+          <!-- Mesmo botão para fechar o menu -->
+          <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+          <ul>
+            <li><a href="index.html" onclick="toggleMenu()">Início</a></li>
+            <li><a href="sobre.html" onclick="toggleMenu()">Sobre Nós</a></li>
+            <li><a href="dicionario.html" onclick="toggleMenu()">Dicionário</a></li>
+            <li><a href="saibamais.html" onclick="toggleMenu()">Saiba Mais</a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+  <!-- Conteúdo principal -->
+  <main>
+    <div class="logo">
+      <img src="logo.png" alt="LIBRAS">
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="script.js"></script>
 </body>
 </html>
