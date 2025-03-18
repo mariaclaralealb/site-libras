@@ -126,6 +126,7 @@ function getDescription(word) {
                 "8": "Número oito.",
                 "9": "Número nove.",
                 "10": "Número dez.",
+                //Elementos 
                 "água": "Substância essencial para a vida, incolor, inodora e insípida.",
                 "fogo": "Combustão que gera calor e luz.",
                 "terra": "Superfície sólida da crosta terrestre onde pisamos, construímos etc.; chão, solo.",

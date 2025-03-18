@@ -43,7 +43,7 @@ header {
     top: 1px; /* Inicia abaixo do header (ajuste conforme a altura real do seu header) */
     left: -100%;
     width: 100%;
-    height: calc(100% - 70px); /* Ocupa o restante da tela */
+    height: calc(100%); /* Ocupa o restante da tela */
     background-color: #002147;
     transition: left 0.3s ease-in-out;
     z-index: 9999;
@@ -284,6 +284,6 @@ footer {
     justify-content: center;
     width: 200px;
     max-width: 200px;
-    max-height: 50x
+    max-height: 500px;
     border-radius: 10px;
 }
