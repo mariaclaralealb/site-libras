@@ -12,17 +12,20 @@
 <body>
   <header>
     <nav>
-      <div class="menu-icon" onclick="toggleMenu()">&#9776; Menu</div>
+      <!-- Botão de Menu -->
+      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
     </nav>
   </header>
-
+  
+  <!-- OVERLAY: cobre a tela quando o menu é aberto -->
   <div id="overlay" class="overlay">
     <div class="overlay-content">
-      <div class="menu-icon" onclick="toggleMenu()">&#9776; Menu</div>
+      <!-- Mesmo botão para fechar o menu -->
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre Nós</a></li>
-        <li><a href="dicionario.html">Dicionário</a></li>
+        <li><a href="index.html" onclick="toggleMenu()">Início</a></li>
+        <li><a href="sobre.html" onclick="toggleMenu()">Sobre Nós</a></li>
+        <li><a href="dicionario.html" onclick="toggleMenu()">Dicionário</a></li>
+        <li><a href="saibamais.html" onclick="toggleMenu()">Saiba Mais</a></li>
       </ul>
     </div>
   </div>

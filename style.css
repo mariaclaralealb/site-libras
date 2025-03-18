@@ -14,7 +14,7 @@ body {
     color: #333;
 }
 
-/* HEADER */
+/* HEADER permanece com z-index alto para ficar acima do overlay */
 header {
     background-color: #002147;
     padding: 20px;
@@ -23,6 +23,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 10000;
 }
 
 /* Botão de Menu - Padrão */
@@ -35,13 +37,13 @@ header {
     font-family: "Mulish", sans-serif;
 }
 
-/* OVERLAY - Menu lateral */
+/* Overlay ajustado para começar abaixo do header */
 .overlay {
     position: fixed;
-    top: 0;
-    left: -100%; /* Escondido por padrão */
+    top: 1px; /* Inicia abaixo do header (ajuste conforme a altura real do seu header) */
+    left: -100%;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 70px); /* Ocupa o restante da tela */
     background-color: #002147;
     transition: left 0.3s ease-in-out;
     z-index: 9999;
@@ -59,6 +61,7 @@ header {
 /* Conteúdo do Overlay */
 .overlay-content {
     margin: 40px;
+    padding-top: 70px; /* Ajuste conforme a altura do header */
     width: 100%;
     color: white;
 }
@@ -131,7 +134,6 @@ main {
     margin-bottom: 40px;
 }
 
-
 /* Seção Saiba Mais - Container geral */
 .saiba-mais {
     display: flex;
@@ -140,47 +142,61 @@ main {
     max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
-  }
-  
-  /* Texto do Saiba Mais */
-  .saiba-mais .texto {
+}
+
+/* Texto do Saiba Mais */
+.saiba-mais .texto {
     width: 300px; /* Largura fixa do bloco de texto */
     text-align: left;
-  }
-  
-  .saiba-mais .texto h2 {
+}
+
+.saiba-mais .texto h2 {
     font-size: 28px;
     font-weight: 700;
     color: #002147;
     margin-bottom: 10px;
-  }
-  
-  .saiba-mais .texto p {
+}
+
+.saiba-mais .texto p {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
     color: #333;
-  }
-  
-  /* Container das imagens */
-  .saiba-mais .imagens {
+}
+
+/* Container das imagens */
+.saiba-mais .imagens {
     display: flex;
     flex-direction: column;
-    gap: 10px;         /* Espaço entre as imagens */
-    align-items: flex-end; 
-  }
-  
-  /* Forçando tamanho das imagens */
-  .saiba-mais .imagens img {
+    gap: 10px; /* Espaço entre as imagens */
+    align-items: flex-end;
+}
+
+/* Forçando tamanho das imagens */
+.saiba-mais .imagens img {
     width: 250px !important;   /* Largura fixa */
-    height: 150px !important;  /* Altura fixa */
+    height: 150px !important;   /* Altura fixa */
     object-fit: cover !important;
     border-radius: 5px !important;
     display: block !important;
     max-width: none !important;
     max-height: none !important;
-  }
-  
+}
+
+/* Seção História das Libras e Curiosidades */
+.libras-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os blocos */
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.libras-info h2 {
+    margin-top: 30px; /* Adiciona um espaço acima dos títulos */
+}
+
 /* RODAPÉ */
 footer {
     background-color: #002147;
@@ -190,4 +206,84 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* ---------------------------------- */
+/* CSS ESPECÍFICO DA PÁGINA DICIONÁRIO */
+/* ---------------------------------- */
+
+/* Container principal */
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Área de busca */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    background: #004080; /* Cor do botão de busca */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Resultado da busca */
+#result {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start; /* Alinhar os itens ao topo */
+    justify-content: space-between; /* Espaço entre os elementos */
+    text-align: left; /* Alinhar o texto à esquerda */
+}
+
+/* Texto descritivo */
+.description {
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 250px;
+    color: #003366;
+    margin-right: 20px; /* Espaço entre a descrição e o vídeo */
+}
+
+/* Bloco de conteúdo (imagem e vídeo) */
+.content {
+    display: flex;
+    align-items: flex-start; /* Alinhar os itens ao topo */
+    gap: 20px; /* Espaço entre o vídeo e a imagem */
+}
+
+/* Vídeos do dicionário */
+.content video {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Imagens do dicionário */
+.content img {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    max-width: 200px;
+    max-height: 50x
+    border-radius: 10px;
 }

@@ -9,18 +9,17 @@
 </head>
 <body>
 
-  <!-- Barra de Navegação -->
   <header>
-    <nav class="navbar">
+    <nav>
+      <!-- Botão de Menu -->
       <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
     </nav>
   </header>
-
-  <!-- OVERLAY: menu que aparece ao clicar no botão -->
+  
+  <!-- OVERLAY: cobre a tela quando o menu é aberto -->
   <div id="overlay" class="overlay">
     <div class="overlay-content">
       <!-- Mesmo botão para fechar o menu -->
-      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
       <ul>
         <li><a href="index.html" onclick="toggleMenu()">Início</a></li>
         <li><a href="sobre.html" onclick="toggleMenu()">Sobre Nós</a></li>
