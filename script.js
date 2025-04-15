@@ -1,3 +1,84 @@
+// Adicionar no início do arquivo
+document.addEventListener('DOMContentLoaded', function() {
+    // Adicionar classe de carregamento para transições suaves
+    document.body.classList.add('loaded');
+    
+    // Fechar menu ao pressionar ESC
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            var overlay = document.getElementById("overlay");
+            overlay.classList.remove("open");
+        }
+    });
+});
+
+// Modificar a função searchSign para melhor feedback
+function searchSign() {
+    const word = document.getElementById("search").value.toLowerCase().trim();
+    const resultDiv = document.getElementById("result");
+    
+    // Limpar resultados
+    resultDiv.innerHTML = "";
+    resultDiv.classList.remove("no-results");
+    
+    if (!word) return;
+    
+    // Adicionar animação de carregamento
+    resultDiv.innerHTML = '<div class="loading">Buscando...</div>';
+    
+    // Simular pequeno atraso para melhor UX
+    setTimeout(function() {
+        // Restante da função original...
+        
+        // Se não encontrar resultados
+        if (!getDescription(word) || getDescription(word) === "Descrição não disponível.") {
+            resultDiv.innerHTML = `
+                <div class="no-results">
+                    <p>Sinal não encontrado em nosso dicionário.</p>
+                    <p>Deseja sugerir a inclusão deste sinal?</p>
+                    <button onclick="suggestSign('${word}')">Sugerir Sinal</button>
+                </div>
+            `;
+            resultDiv.classList.add("no-results");
+        }
+    }, 300);
+}
+
+// Nova função para sugestão de sinais
+function suggestSign(word) {
+    alert(`Obrigado por sugerir o sinal "${word}". Em breve nossa equipe avaliará a inclusão.`);
+    document.getElementById("search").value = "";
+}
+
+// Adicionar no CSS:
+/*
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: var(--dark-color);
+}
+
+.no-results {
+    text-align: center;
+    padding: 20px;
+    color: var(--dark-color);
+}
+
+.no-results button {
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.no-results button:hover {
+    background: var(--hover-color);
+}
+*/
 // Função para alternar o menu lateral
 function toggleMenu() {
     var overlay = document.getElementById("overlay");
@@ -136,3 +217,26 @@ function getDescription(word) {
     // Retorna a descrição correspondente ou uma mensagem padrão
     return descriptions[word] || "Descrição não disponível.";
 }
+// Accordion functionality
+document.querySelectorAll('.accordion-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const item = button.parentElement;
+        item.classList.toggle('active');
+    });
+});
+// Back to top button
+window.onscroll = function() {
+    const backToTopButton = document.getElementById("back-to-top");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+};
+
+document.getElementById("back-to-top").addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});

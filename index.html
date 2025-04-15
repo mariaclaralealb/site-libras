@@ -10,13 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
   <!-- Seu CSS principal -->
   <link rel="stylesheet" href="style.css">
+  <!-- No <head> de todas as páginas -->
+  <meta name="theme-color" content="#002147">
 </head>
 <body>
 
     <header>
         <nav>
           <!-- Botão de Menu -->
-          <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+          <button class="menu-btn" onclick="toggleMenu(event)">☰ Menu</button>
         </nav>
       </header>
       
@@ -41,12 +43,24 @@
     </div>
   </main>
 
-  <!-- Rodapé -->
   <footer>
-    <p>© 2025 - Todos os direitos reservados</p>
-  </footer>
-
-  <!-- Script principal -->
-  <script src="script.js"></script>
-</body>
-</html>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>LIBRAS</h3>
+            <p>Promovendo a inclusão através da comunicação.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contato</h3>
+            <p>contato@libras.com.br</p>
+            <div class="social-icons">
+                <a href="#"><span>FB</span></a>
+                <a href="#"><span>IG</span></a>
+                <a href="#"><span>YT</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 LIBRAS - Todos os direitos reservados</p>
+    </div>
+</footer>
+<button id="back-to-top" title="Voltar ao topo">↑</button>
