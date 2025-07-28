@@ -138,7 +138,7 @@ function searchSign() {
 
     const description = document.createElement("div");
     description.className = "description";
-    description.innerHTML = `<strong>${word.toUpperCase()}</strong><br>DESCRIÇÃO:<br>${descriptionText}`;
+    description.innerHTML = `<strong>${word.toUpperCase()}</strong><br>Descrição:<br>${descriptionText}`;
 
     const content = document.createElement("div");
     content.className = "content";
