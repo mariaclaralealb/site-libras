@@ -80,9 +80,13 @@ function suggestSign(word) {
 }
 */
 // Função para alternar o menu lateral
-function toggleMenu() {
+function toggleMenu(event) {
+    if (event) {
+        event.stopPropagation(); // Impede a propagação do evento
+    }
     var overlay = document.getElementById("overlay");
     overlay.classList.toggle("open");
+    document.body.classList.toggle("menu-open");
 }
 
 // Fecha o menu se o usuário clicar fora dele

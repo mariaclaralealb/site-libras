@@ -267,12 +267,12 @@ footer {
 /* ---------------------------------- */
 /* CSS ESPECÍFICO DA PÁGINA DICIONÁRIO */
 /* ---------------------------------- */
-
-/* Container principal */
 #container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    min-height: calc(100vh - 200px); /* Ajuste conforme necessário */
+    padding-bottom: 60px; /* Espaço para o rodapé */
 }
 
 /* Área de busca */
@@ -437,7 +437,9 @@ footer {
     background-color: var(--primary-color);
     color: white;
     padding: 30px 0 0;
-    position: relative;
+    position: relative; /* Mudar de fixed para relative */
+    width: 100%;
+    margin-top: 50px; /* Adicionar margem no topo */
 }
 
 .footer-content {
