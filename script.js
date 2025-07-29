@@ -220,7 +220,7 @@ function getDescription(word) {
                 //Alimentos/Bebidas
                 "alimentos": "Tudo aquilo que serve para nutrir um ser vivo",
                 "manga": "Fruto tropical doce, suculento, da mangueira",
-                "macarão": "massa feita de farinha de trigo, geralmente cozida e servida com molhos.",
+                "macarrão": "massa feita de farinha de trigo, geralmente cozida e servida com molhos.",
                 "melancia": "fruta grande, com casca verde, polpa vermelha e bastante água.",
                 "mel": "substância doce produzida pelas abelhas a partir do néctar das flores.",
                 "maracuja": "fruta com casca amarela ou roxa, polpa amarela e sabor ácido.",
