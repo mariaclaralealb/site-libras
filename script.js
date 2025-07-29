@@ -278,7 +278,7 @@ function getDescription(word) {
                 "berinjela": "legume roxo e macio, usado assado, refogado ou empanado.",
                 "biscoito": "alimento assado, crocante, doce ou salgado.",
                 "couve": "verdura de folhas verdes escuras, consumida refogada ou crua.",
-                "côco": "fruto de casca dura e polpa branca, usado em doces, sucos ou puro.",
+                "coco": "fruto de casca dura e polpa branca, usado em doces, sucos ou puro.",
                 "churrasco": "carne assada na brasa, típica da culinária brasileira.",
                 "chocolate": "doce feito com cacau, pode ser ao leite, amargo ou branco.",
                 "chiclete": "doce mastigável feito de goma com sabor artificial.",
