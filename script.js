@@ -211,6 +211,7 @@ function getDescription(word) {
                 "8": "Número oito.",
                 "9": "Número nove.",
                 "10": "Número dez.",
+                
                 //Elementos 
                 "água": "Substância essencial para a vida, incolor, inodora e insípida.",
                 "fogo": "Combustão que gera calor e luz.",
@@ -294,8 +295,96 @@ function getDescription(word) {
                 "café": "bebida feita com grãos torrados, geralmente consumida quente.",
                 "caju": "fruta com castanha externa e polpa suculenta, usada em sucos e doces.",
                 "carambola": "fruta em forma de estrela quando cortada, de sabor agridoce.",
+            
+                //Planetas do sistema solar
+                "Sol": "A estrela no centro do Sistema Solar, responsável por fornecer luz e calor essenciais para a vida na Terra.",
+                "Mercúrio": "O menor planeta do Sistema Solar e o mais próximo do Sol, com temperaturas extremas e sem luas.",
+                "Vênus": "Conhecido como a 'estrela d'alva' ou 'estrela vespertina', é um planeta rochoso com atmosfera densa e temperaturas muito elevadas.",
+                "Terra": "O único planeta conhecido por abrigar vida, com uma atmosfera rica em oxigênio e uma grande quantidade de água em estado líquido.",
+                "Lua": "O único satélite natural da Terra, visível a olho nu, com influência nas marés e fases visíveis ao longo do mês.",
+                "Marte": "Chamado de 'planeta vermelho' devido à presença de óxido de ferro em sua superfície, com evidências de água congelada e possibilidade de vida passada.",
+                "Júpiter": "O maior planeta do Sistema Solar, com uma grande 'mancha vermelha' que é uma tempestade persistente.",
+                "Saturno": "Famoso pelos seus anéis espetaculares, compostos por gelo, rocha e poeira, e por ser um planeta com baixa densidade.",
+                "Urano": "Conhecido por sua inclinação axial incomum, fazendo com que gire quase de lado em relação ao seu plano orbital.",
+                "Netuno": "O planeta mais distante do Sol, com ventos extremamente fortes e uma cor azulada devido à presença de metano em sua atmosfera.",
+                "Constelação": "Grupo aparente de estrelas no céu que forma figuras imaginárias, utilizadas desde a antiguidade para navegação e mitologia.",
+                  
+                
+                //Identidade/Cumprimentos
+                "bom dia": "Cumprimento usado durante a manhã, como forma educada de iniciar uma conversa.",
+                "boa tarde": "Cumprimento usado no período da tarde, demonstrando cordialidade.",
+                "boa noite": "Cumprimento usado à noite, tanto na chegada quanto na despedida.",
+                "tchau": "Forma informal e comum de se despedir.",
+                "até logo": "Despedida que expressa a intenção de ver a pessoa novamente em breve.",
+                "oi": "Cumprimento informal e breve, comum entre conhecidos.",
+                "prazer em te conhecer": "Frase usada para demonstrar satisfação ao conhecer alguém pela primeira vez.",
+                "obrigada": "Expressão usada para demonstrar agradecimento.",
+                "desculpe": "Expressão usada para pedir perdão ou desculpas por um erro ou inconveniente.",
+                "por favor": "Expressão usada para fazer um pedido de forma educada.",
+                "bem": "Advérbio que indica estado positivo, como sentir-se bem ou realizar algo corretamente.",
+                "bom": "Adjetivo que qualifica algo como positivo, adequado ou de qualidade.",
+                "tudo bem": "Expressão usada para indicar que tudo está em ordem ou para responder positivamente a uma pergunta sobre estado.",
+                "peso": "Medida da força com que a gravidade atrai um corpo. Geralmente expressa em quilogramas (kg) ou gramas (g).",
+                "saudade": "Sentimento de melancolia ou afeto causado pela ausência de alguém, de algum lugar ou de algo importante ou querido.",
+                "meu nome": "Expressão usada para indicar o nome próprio de quem fala.",
+                "nome completo": "Conjunto do nome próprio e sobrenomes de uma pessoa, usado para identificação oficial.",
+                "seu nome": "Expressão usada para se referir ao nome da pessoa com quem se fala.",
+                "nascimento": "Evento que marca o início da vida de uma pessoa, ou o ato de nascer.",
+                "meu sinal": "Expressão usada para se referir ao signo do zodíaco de uma pessoa, determinado pela data de seu nascimento.",
+                "altura": "Medida vertical de algo ou alguém, geralmente expressa em metros (m) ou centímetros (cm), que indica a distância do chão até o topo.",
+                "cumprimento": "Ação de saudar ou dirigir palavras cordiais a alguém, como 'bom dia', 'oi' ou 'olá'; também pode se referir a gestos como aperto de mão.",
+                "idade": "Tempo de vida de uma pessoa ou ser vivo, geralmente contado em anos a partir do nascimento.",
 
-    };
+                //Pronomes
+                "eu": "Pronome pessoal usado por quem fala para se referir a si mesmo.",
+                "seu": "Pronome possessivo usado para indicar que algo pertence à pessoa com quem se fala (masculino).",
+                "nós": "Pronome pessoal usado para se referir ao grupo que inclui quem fala e pelo menos mais uma pessoa.",
+                "meu": "Pronome possessivo usado por quem fala para indicar posse (masculino).",
+                "ele": "Pronome pessoal usado para se referir a um homem ou a algo do gênero masculino.",
+                "você": "Pronome usado para se referir diretamente à pessoa com quem se fala, geralmente de forma informal.",
+
+                //Calendario
+                "manhã": "Substantivo feminino. Período do dia entre o nascer do sol e o meio-dia, geralmente associado ao início das atividades diárias.",
+                "tarde": "Substantivo feminino. Período do dia entre o meio-dia e o anoitecer, geralmente associado à continuidade das atividades iniciadas pela manhã.",
+                "noite": "Substantivo feminino. Período do dia que se inicia ao entardecer e vai até o amanhecer, caracterizado pela ausência de luz solar.",
+                "domingo" :"Substantivo masculino. Dia da semana considerado o último no calendário comercial e o primeiro em alguns calendários; tradicionalmente dedicado ao descanso e atividades de lazer.",
+                "segunda-feira": "Substantivo feminino. Primeiro dia útil da semana, situado entre o domingo e a terça-feira, geralmente associado ao início das atividades semanais.",
+                "terça-feira": "Substantivo feminino. Segundo dia útil da semana, situado entre a segunda-feira e a quarta-feira.",
+                "quarta-feira" :"Substantivo feminino. Terceiro dia útil da semana, situado entre a terça-feira e a quinta-feira.",
+                "quinta-feira": "Substantivo feminino. Quarto dia útil da semana, situado entre a quarta-feira e a sexta-feira.",
+                "sexta-feira" :"Substantivo feminino. Quinto e último dia útil tradicional da semana, situado entre a quinta-feira e o sábado.",
+                "sábado" :"Substantivo masculino. Dia da semana situado entre a sexta-feira e o domingo, geralmente associado ao lazer e ao descanso.",
+                "janeiro": "Substantivo masculino. Primeiro mês do ano, com 31 dias; marca o início do calendário anual e é associado ao verão no hemisfério sul.",
+                "fevereiro" :"Substantivo masculino. Segundo mês do ano, com 28 dias (29 em anos bissextos); é o mês mais curto do calendário.",
+                "março" :"Substantivo masculino. Terceiro mês do ano, com 31 dias; marca o início do outono no hemisfério sul e da primavera no hemisfério norte.",
+                "abril" :"Substantivo masculino. Quarto mês do ano, com 30 dias; frequentemente associado ao outono no hemisfério sul.",
+                "maio" :"Substantivo masculino. Quinto mês do ano, com 31 dias; tradicionalmente ligado à chegada do frio no hemisfério sul.",
+                "junho" :"Substantivo masculino. Sexto mês do ano, com 30 dias; marca o início do inverno no hemisfério sul.",
+                "julho" :"Substantivo masculino. Sétimo mês do ano, com 31 dias; conhecido por ser período de férias escolares no Brasil.",
+                "agosto" :"Substantivo masculino. Oitavo mês do ano, com 31 dias; popularmente conhecido como o mês mais longo do ano.",
+                "setembro" :"Substantivo masculino. Nono mês do ano, com 30 dias; marca o início da primavera no hemisfério sul.",
+                "outubro" :"Substantivo masculino. Décimo mês do ano, com 31 dias; frequentemente associado a festividades e mudanças climáticas.",
+                "novembro": "Substantivo masculino. Décimo primeiro mês do ano, com 30 dias; penúltimo mês do calendário anual.",
+                "dezembro": "Substantivo masculino. Décimo segundo e último mês do ano, com 31 dias; marcado por festas de fim de ano e início do verão no hemisfério sul.",
+                "verão" :"Substantivo masculino. Estação do ano caracterizada por temperaturas altas, dias mais longos e noites mais curtas; no hemisfério sul, ocorre entre dezembro e março.",
+                "outono": "Substantivo masculino. Estação do ano marcada pela queda das folhas, temperaturas amenas e dias que começam a ficar mais curtos; no hemisfério sul, ocorre entre março e junho.",
+                "inverno": "Substantivo masculino. Estação do ano com temperaturas mais baixas, noites longas e dias curtos; no hemisfério sul, ocorre entre junho e setembro.",
+                "primavera": "Substantivo feminino. Estação do ano caracterizada pelo florescimento das plantas, aumento gradual das temperaturas e dias mais longos; no hemisfério sul, ocorre entre setembro e dezembro.",
+                "semana" :"Substantivo feminino. Período de sete dias consecutivos que compõem um ciclo completo, geralmente começando na segunda-feira e terminando no domingo.",
+                "passado": "Substantivo masculino. Período de tempo que já ocorreu, anterior ao presente; refere-se a eventos e fatos que aconteceram antes do momento atual.",
+                "ontem": "Advérbio de tempo. Refere-se ao dia imediatamente anterior ao dia atual; indica um momento no passado recente.",
+                "hoje": "Advérbio de tempo. Refere-se ao dia atual, em contraste com ontem.",
+
+
+
+
+
+
+
+
+
+
+};
 
     // Retorna a descrição correspondente ou uma mensagem padrão
     return descriptions[word] || "Descrição não disponível.";
