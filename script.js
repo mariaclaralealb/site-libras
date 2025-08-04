@@ -295,20 +295,6 @@ function getDescription(word) {
                 "café": "bebida feita com grãos torrados, geralmente consumida quente.",
                 "caju": "fruta com castanha externa e polpa suculenta, usada em sucos e doces.",
                 "carambola": "fruta em forma de estrela quando cortada, de sabor agridoce.",
-            
-                //Planetas do sistema solar
-                "Sol": "A estrela no centro do Sistema Solar, responsável por fornecer luz e calor essenciais para a vida na Terra.",
-                "Mercúrio": "O menor planeta do Sistema Solar e o mais próximo do Sol, com temperaturas extremas e sem luas.",
-                "Vênus": "Conhecido como a 'estrela d'alva' ou 'estrela vespertina', é um planeta rochoso com atmosfera densa e temperaturas muito elevadas.",
-                "Terra": "O único planeta conhecido por abrigar vida, com uma atmosfera rica em oxigênio e uma grande quantidade de água em estado líquido.",
-                "Lua": "O único satélite natural da Terra, visível a olho nu, com influência nas marés e fases visíveis ao longo do mês.",
-                "Marte": "Chamado de 'planeta vermelho' devido à presença de óxido de ferro em sua superfície, com evidências de água congelada e possibilidade de vida passada.",
-                "Júpiter": "O maior planeta do Sistema Solar, com uma grande 'mancha vermelha' que é uma tempestade persistente.",
-                "Saturno": "Famoso pelos seus anéis espetaculares, compostos por gelo, rocha e poeira, e por ser um planeta com baixa densidade.",
-                "Urano": "Conhecido por sua inclinação axial incomum, fazendo com que gire quase de lado em relação ao seu plano orbital.",
-                "Netuno": "O planeta mais distante do Sol, com ventos extremamente fortes e uma cor azulada devido à presença de metano em sua atmosfera.",
-                "Constelação": "Grupo aparente de estrelas no céu que forma figuras imaginárias, utilizadas desde a antiguidade para navegação e mitologia.",
-                  
                 
                 //Identidade/Cumprimentos
                 "bom dia": "Cumprimento usado durante a manhã, como forma educada de iniciar uma conversa.",
