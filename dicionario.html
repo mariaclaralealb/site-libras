@@ -51,15 +51,16 @@
     <!-- Título "Dicionário de LIBRAS" -->
     <h1 style="text-align: center; margin-bottom: 30px;">Dicionário de LIBRAS</h1>
     <!-- Área de busca -->
-    <div class="search-container">
-        <input
-          type="text"
-          id="search"
-          placeholder="Buscar..."
-          oninput="searchSign()"
-        />
-        <button onclick="clearSearch()">✖</button>
-    </div>
+<div class="search-container-modern">
+    <input
+        type="text"
+        id="search"
+        placeholder="Digite uma palavra em português ou LIBRAS..."
+        oninput="searchSign()"
+    />
+    <button onclick="clearSearch()" id="clear-btn" title="Limpar busca">✖</button>
+</div>
+<div id="result"></div>
     <div id="result"></div>
 </div>
     <!-- Rodapé único -->
@@ -84,3 +85,15 @@
     <script src="script.js"></script>
 </body>
 </html>
+<!-- VLibras: acessibilidade em Libras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>

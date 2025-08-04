@@ -221,7 +221,7 @@ function getDescription(word) {
                 //Alimentos/Bebidas
                 "alimentos": "Tudo aquilo que serve para nutrir um ser vivo",
                 "manga": "Fruto tropical doce, suculento, da mangueira",
-                "macarão": "massa feita de farinha de trigo, geralmente cozida e servida com molhos.",
+                "macarrão": "massa feita de farinha de trigo, geralmente cozida e servida com molhos.",
                 "melancia": "fruta grande, com casca verde, polpa vermelha e bastante água.",
                 "mel": "substância doce produzida pelas abelhas a partir do néctar das flores.",
                 "maracuja": "fruta com casca amarela ou roxa, polpa amarela e sabor ácido.",
@@ -279,7 +279,7 @@ function getDescription(word) {
                 "berinjela": "legume roxo e macio, usado assado, refogado ou empanado.",
                 "biscoito": "alimento assado, crocante, doce ou salgado.",
                 "couve": "verdura de folhas verdes escuras, consumida refogada ou crua.",
-                "côco": "fruto de casca dura e polpa branca, usado em doces, sucos ou puro.",
+                "coco": "fruto de casca dura e polpa branca, usado em doces, sucos ou puro.",
                 "churrasco": "carne assada na brasa, típica da culinária brasileira.",
                 "chocolate": "doce feito com cacau, pode ser ao leite, amargo ou branco.",
                 "chiclete": "doce mastigável feito de goma com sabor artificial.",
