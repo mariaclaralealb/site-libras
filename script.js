@@ -394,7 +394,7 @@ function getDescription(word) {
                 "Genro" :"Substantivo masculino. Marido da filha em relação aos sogros.",
                 "Gêmeos": "Substantivo masculino plural. Dois irmãos nascidos da mesma gestação.",
                 "Neto": "Substantivo masculino. Filho do filho ou da filha.",
-                "Flho" :"Substantivo masculino. Pessoa gerada ou adotada por alguém; descendente de primeiro grau.",
+                "Filho" :"Substantivo masculino. Pessoa gerada ou adotada por alguém; descendente de primeiro grau.",
                 "Amigo": "Substantivo masculino. Pessoa com quem se tem uma relação de afeto, confiança e companheirismo, sem vínculo familiar.",
                 "Bebê" :"Substantivo masculino. Criança recém-nascida ou com poucos meses de vida.",
                 "Velho" :"Adjetivo/Substantivo. Pessoa de idade avançada; pode ser usado de forma pejorativa ou carinhosa, dependendo do contexto.",
