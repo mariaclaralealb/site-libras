@@ -368,17 +368,41 @@ function getDescription(word) {
                 "Depois": "Advérbio de tempo. Indica que algo ocorre em um momento posterior a outro; oposto de antes.",
                 "Amanhã":"Advérbio de tempo. Refere-se ao dia que sucede o dia atual; indica um futuro próximo.",
                 "Ao que vem" :"Expressão. Refere-se ao próximo ano em relação ao ano atual; forma comum de indicar um futuro mais distante que 'amanhã' ou 'semana que vem'.",
-                "Ao" :"Substantivo masculino. Período de tempo correspondente a 12 meses ou aproximadamente 365 dias, necessário para a Terra completar uma volta ao redor do Sol.",
+                "Ano" :"Substantivo masculino. Período de tempo correspondente a 12 meses ou aproximadamente 365 dias, necessário para a Terra completar uma volta ao redor do Sol.",
                 "Estações do ano":"Expressão. Divisões do ano baseadas em variações climáticas causadas pela inclinação da Terra em relação ao Sol; incluem verão, outono, inverno e primavera.",
 
 
-
-
-
-
-
-
-
+                //Pessoas/Familia
+                "Primo": "Substantivo masculino. Filho do tio ou da tia; parente de segundo grau.",
+                "Padrinho" :"Substantivo masculino. Homem escolhido para acompanhar espiritualmente uma criança no batismo ou em outros ritos; também usado para designar um protetor ou mentor.",
+                "Sobrinho" :"Substantivo masculino. Filho do irmão ou da irmã.",
+                "Sogro" :"Substantivo masculino. Pai do cônjuge; pai do marido ou da esposa.",
+                "Solteiro" :"Adjetivo/Substantivo. Pessoa que não é casada; estado civil de quem não tem cônjuge.",
+                "Tio": "Substantivo masculino. Irmão do pai ou da mãe; também usado como forma de respeito a homens mais velhos próximos da família.",
+                "Vizinho" :"Substantivo masculino. Pessoa que mora perto, geralmente na mesma rua, prédio ou comunidade.",
+                "Vovô": "Substantivo masculino. Forma carinhosa e informal de se referir ao avô.",
+                "Padrasto":"Substantivo masculino. Marido da mãe em um segundo casamento; não é o pai biológico.",
+                "Adulto": "Substantivo/Adjetivo. Pessoa que atingiu a maturidade física e mental, geralmente a partir dos 18 anos.",
+                "Afilhado": "Substantivo masculino. Pessoa que recebe um padrinho ou madrinha em batismo ou outro rito religioso.",
+                "Namorado": "Substantivo masculino. Pessoa com quem se mantém um relacionamento amoroso sem casamento formal.",
+                "Menino" :"Substantivo masculino. Criança do sexo masculino; também usado para jovens do sexo masculino.",
+                "Marido": "Substantivo masculino. Homem unido em casamento com uma mulher ou outro homem.",
+                "Jovem": "Substantivo/Adjetivo. Pessoa em fase de transição entre a adolescência e a vida adulta; também usado para descrever alguém com pouca idade.",
+                "Noivo" :"Substantivo masculino. Homem comprometido oficialmente para casar-se com alguém.",
+                "Irmão" :"Substantivo masculino. Pessoa do mesmo pai e/ou da mesma mãe.",
+                "Homem" :"Substantivo masculino. Indivíduo adulto do sexo masculino.",
+                "Genro" :"Substantivo masculino. Marido da filha em relação aos sogros.",
+                "Gêmeos": "Substantivo masculino plural. Dois irmãos nascidos da mesma gestação.",
+                "Neto": "Substantivo masculino. Filho do filho ou da filha.",
+                "Flho" :"Substantivo masculino. Pessoa gerada ou adotada por alguém; descendente de primeiro grau.",
+                "Amigo": "Substantivo masculino. Pessoa com quem se tem uma relação de afeto, confiança e companheirismo, sem vínculo familiar.",
+                "Bebê" :"Substantivo masculino. Criança recém-nascida ou com poucos meses de vida.",
+                "Velho" :"Adjetivo/Substantivo. Pessoa de idade avançada; pode ser usado de forma pejorativa ou carinhosa, dependendo do contexto.",
+                "Bisavô" :"Substantivo masculino. Pai do avô ou da avó; ascendência de quarta geração.",
+                "Criança" :"Substantivo feminino. Pessoa em fase inicial da vida, entre o nascimento e a adolescência.",
+                "Crianças": "Substantivo feminino plural. Conjunto de indivíduos na fase da infância.",
+                "Cunhado": "Substantivo masculino. Irmão do cônjuge ou marido da irmã.",
+                "Filho adotivo" :"Expressão. Criança ou pessoa legalmente reconhecida como filho, sem vínculo biológico com os pais.",
 
 
 };
