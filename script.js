@@ -402,7 +402,36 @@ function getDescription(word) {
                 "Criança" :"Substantivo feminino. Pessoa em fase inicial da vida, entre o nascimento e a adolescência.",
                 "Crianças": "Substantivo feminino plural. Conjunto de indivíduos na fase da infância.",
                 "Cunhado": "Substantivo masculino. Irmão do cônjuge ou marido da irmã.",
-                "Filho adotivo" :"Expressão. Criança ou pessoa legalmente reconhecida como filho, sem vínculo biológico com os pais.",
+                "Filho adotivo":"Expressão. Criança ou pessoa legalmente reconhecida como filho, sem vínculo biológico com os pais.",
+
+                //Bebidas
+                "Vinho" :"Substantivo masculino. Bebida alcoólica feita a partir da fermentação do suco da uva; pode ser tinto, branco ou rosé.",
+                "Bebidas" :"Substantivo feminino. Qualquer líquido que pode ser ingerido; pode ou não conter álcool.",
+                "Cachaça" :"Substantivo feminino. Bebida alcoólica típica do Brasil, obtida da destilação do caldo de cana-de-açúcar fermentado.",
+                "Cerveja" :"Substantivo feminino. Bebida alcoólica produzida pela fermentação de cereais, como cevada; consumida gelada, é uma das bebidas mais populares do mundo.",
+                "Champanhe" :"Substantivo masculino. Tipo de vinho espumante produzido na região de Champagne, na França; associado a celebrações.",
+                "Refrigerante": "Substantivo masculino. Bebida não alcoólica, gaseificada, geralmente doce e com sabores variados; muito consumida em todo o mundo.",
+                "Suco" :"Substantivo masculino. Bebida não alcoólica extraída de frutas, legumes ou vegetais, geralmente consumida fresca.",
+
+                //Cores
+                "Bege" :"Substantivo masculino. Cor clara, próxima ao tom da areia ou do creme; transmite suavidade e neutralidade.",
+                "Azul": "Substantivo masculino. Cor que remete ao céu e ao mar; associada à tranquilidade, confiança e serenidade.",
+                "Prata" :"Substantivo masculino. Cor metálica semelhante ao brilho do metal prata; associada à modernidade, tecnologia e sofisticação.",
+                "Vermelho": "Substantivo masculino. Cor intensa, associada ao fogo, à paixão, ao amor e à energia.",
+                "Branco": "Substantivo masculino. Cor da luz total; simboliza pureza, paz e limpeza.",
+                "Cinza" :"Substantivo masculino. Cor intermediária entre o branco e o preto; representa neutralidade, equilíbrio ou indecisão.",
+                "Claro" :"Adjetivo. Indica uma tonalidade mais suave ou iluminada de uma cor.",
+                "Laranja" :"Substantivo masculino. Cor vibrante resultante da mistura de vermelho e amarelo; associada à criatividade e entusiasmo.",
+                "Escuro": "Adjetivo. Indica uma tonalidade mais profunda ou fechada de uma cor.",
+                "Lilás": "Substantivo masculino. Cor suave entre o roxo e o rosa; ligada à espiritualidade e à delicadeza.",
+                "Marrom": "Substantivo masculino. Cor que lembra a terra ou madeira; associada à estabilidade e rusticidade.",
+                "Rosa" :"Substantivo masculino. Cor delicada, entre o vermelho e o branco; associada ao romantismo, doçura e carinho.",
+                "Roxo" :"Substantivo masculino. Cor intensa entre o azul e o vermelho; ligada à nobreza, mistério e espiritualidade.",
+                "Verde" :"Substantivo masculino. Cor associada à natureza, equilíbrio, saúde e esperança.",
+                "Ouro": "Substantivo masculino. Cor metálica semelhante ao metal ouro; associada à riqueza, prestígio e luxo.",
+                "Preto" :"Substantivo masculino. Cor da ausência de luz; simboliza elegância, poder ou luto, dependendo do contexto.",
+                "Amarelo": "Substantivo masculino. Cor vibrante ligada ao sol, à alegria, à energia e à criatividade.",
+
 
 
 };
