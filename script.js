@@ -360,6 +360,17 @@ function getDescription(word) {
                 "passado": "Substantivo masculino. Período de tempo que já ocorreu, anterior ao presente; refere-se a eventos e fatos que aconteceram antes do momento atual.",
                 "ontem": "Advérbio de tempo. Refere-se ao dia imediatamente anterior ao dia atual; indica um momento no passado recente.",
                 "hoje": "Advérbio de tempo. Refere-se ao dia atual, em contraste com ontem.",
+                "minuto": "Substantivo masculino. Unidade de medida de tempo equivalente a 60 segundos; usada para indicar breves intervalos temporais.",
+                "futuro": "Substantivo masculino. Tempo que ainda não aconteceu; conjunto dos eventos que estão por vir.",
+                "férias" :"Substantivo feminino plural. Período de descanso temporário das atividades escolares ou profissionais; geralmente associado a lazer, viagens e relaxamento.",
+                "feriado" :"Substantivo masculino. Dia determinado por lei em que se suspendem atividades profissionais e escolares, geralmente para comemorar eventos cívicos, religiosos ou históricos.",
+                "antes" :"Advérbio de tempo. Indica que algo ocorreu ou deve ocorrer em momento anterior a outro; oposto de depois.",
+                "depois": "Advérbio de tempo. Indica que algo ocorre em um momento posterior a outro; oposto de antes.",
+                "amanhã":"Advérbio de tempo. Refere-se ao dia que sucede o dia atual; indica um futuro próximo.",
+                "ano que vem" :"Expressão. Refere-se ao próximo ano em relação ao ano atual; forma comum de indicar um futuro mais distante que 'amanhã' ou 'semana que vem'.",
+                "ano" :"Substantivo masculino. Período de tempo correspondente a 12 meses ou aproximadamente 365 dias, necessário para a Terra completar uma volta ao redor do Sol.",
+                "estações do ano":"Expressão. Divisões do ano baseadas em variações climáticas causadas pela inclinação da Terra em relação ao Sol; incluem verão, outono, inverno e primavera.",
+
 
 
 
