@@ -643,3 +643,9 @@ section, .team-section, .libras-info {
     max-width: 90%;
   }
 }
+body {
+  background-image: url(./img/fundodetela.png);
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  background-position: center center; /* Centraliza a imagem */
+}
